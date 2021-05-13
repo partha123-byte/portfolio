@@ -1,0 +1,164 @@
+.logo{
+    height:150px;
+    width:150px;
+    margin: 0;
+}
+body{
+    background-color:#0a192f;
+    margin: 0;
+}
+.nav{
+    float:right;
+    margin:15px;
+    margin-top: 50px;
+    padding:10px;
+    text-decoration: none;
+    color:#e6f1ff;
+    font-family: 'Source Code Pro', monospace;
+
+
+}
+#resume{
+    border:2px solid #64ffda;
+    padding:10px;
+    color:#64ffda;
+    border-radius: 5px;
+}
+.top{
+    position:fixed;
+    top:10px;
+    width: 100%;
+}
+
+.down{
+    margin:10%;
+    margin-top:15%;
+}
+
+.line1{
+    color:#64ffda;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 20px;
+    
+    
+}
+.line2 h1{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color:#ccd6f6;
+    font-size: 80px;
+    line-height: .5;
+    padding:0px;
+}
+.line3 h2{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color:#a8b2d1;
+    font-size: 70px;
+    line-height: .5;
+    padding:0px;
+}
+
+.line4 {
+    width:40%;
+    color:#8892b0;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:large;
+}
+.line5 {
+    
+    margin-top: 70px;
+}
+.line5 a{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
+    color:#64ffda;
+    border: 1px solid #64ffda;
+    border-radius:7px;
+    padding:20px;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:large;
+}
+
+
+.icon1 a{
+    color: #ccd6f6;
+    font-size: 20px;
+    text-decoration: none;
+    position:fixed;
+    top:64%;
+    left:3%;
+
+}
+
+.icon2 a{
+    color: #ccd6f6;
+    font-size: 20px;
+    text-decoration: none;
+    position:fixed;
+    top:57%;
+    left:3%;
+
+}
+.icon3 a{
+    color: #ccd6f6;
+    font-size: 20px;
+    text-decoration: none;
+    position:fixed;
+    top:50%;
+    left:3%;
+
+}
+ .icon4 a{
+    color: #ccd6f6;
+    font-size: 20px;
+    text-decoration: none;
+    position:fixed;
+    top:71%;
+    left:3%;
+
+}
+.icon5 span {
+    background-color: #ccd6f6;
+    height: 500px;
+    width:1px;
+    position:fixed;
+    top:78%;
+    left:3.3%;
+    
+
+}
+
+.icon6 span{
+    background-color: #ccd6f6;
+    height: 500px;
+    width:1px;
+    position:fixed;
+    top:78%;
+    right:3.3%;
+    
+}
+
+.icon7 a{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color: #ccd6f6;
+    font-size: 15px;
+    text-decoration: none;
+    position:fixed;
+    top:59%;
+    left:90.5%;
+    transform: rotate(90deg);
+}
+
+.icon7 a:hover{
+    color:#64ffda;
+    
+}
+.icon1 a:hover,.icon2 a:hover,.icon3 a:hover,.icon4 a:hover{
+    color:#64ffda;
+    font-size: 23px;
+}
