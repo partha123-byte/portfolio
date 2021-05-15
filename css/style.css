@@ -26,8 +26,12 @@ body{
 }
 .top{
     position:fixed;
-    top:10px;
+    top:0px;
     width: 100%;
+    background-color:#0a192f ;
+    height: 12%;
+    opacity: 80%;
+    box-shadow:20px 20px 20px #0a192f;
 }
 
 .down{
@@ -144,13 +148,12 @@ body{
 
 .icon7 a{
     font-family: 'Source Code Pro', monospace;
-    font-family: 'Ubuntu', sans-serif;
     color: #ccd6f6;
-    font-size: 15px;
+    font-size: 1vw;
     text-decoration: none;
     position:fixed;
     top:59%;
-    left:90.5%;
+    right:-3.6%;
     transform: rotate(90deg);
 }
 
@@ -162,3 +165,78 @@ body{
     color:#64ffda;
     font-size: 23px;
 }
+
+
+#aboutme-head{
+    margin:15%;
+    margin-top:20%;
+    margin-left: 20%;
+   
+    
+   
+}
+
+#aboutme-head h1{
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color:#ccd6f6;
+    font-size: 28px;
+    line-height: 2.5;
+    padding:0px;
+    float: left;
+    width:15%
+    
+}
+
+ .line{
+    background-color:#495670 ;
+    height:.1px;
+    width:45%;
+    margin:6%;
+    margin-left:1%;
+    float:left;
+    
+    
+
+}
+
+.aboutme-content{
+    clear:both; 
+    margin-left: 20%;
+    float:left;
+    width:40%;
+    color:#8892b0;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    font-size:large;
+
+}
+.photoid{
+    width:15%;
+    height:8%;
+    margin-top:2%;
+    float:left;
+    background-color:  #495670;
+    border-radius: 5px;
+    margin-left:5%;
+
+}
+
+.photoid img{
+    width:96%;
+    height:96%;
+    border-top:5px solid #495670;
+}
+
+.photoid a{
+    text-decoration: none;
+    color:#ccd6f6;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 2%; 
+    text-align:center;
+}
+.photoid span{
+    text-indent: 20px;
+}
+
