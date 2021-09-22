@@ -3,9 +3,13 @@
     width:150px;
     margin: 0;
 }
+*{
+    scroll-behavior: smooth;
+}
 body{
     background-color:#0a192f;
     margin: 0;
+    
 }
 .nav{
     float:right;
@@ -201,7 +205,7 @@ body{
 }
 
 .aboutme-content{
-    clear:both; 
+     
     margin-left: 20%;
     float:left;
     width:40%;
@@ -219,6 +223,7 @@ body{
     background-color:  #495670;
     border-radius: 5px;
     margin-left:5%;
+    
 
 }
 
@@ -240,3 +245,76 @@ body{
     text-indent: 20px;
 }
 
+
+
+#projects-head h1{
+    
+    margin-top:20%;
+    margin-left: 20%;
+    margin-right: 0%;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color:#ccd6f6;
+    font-size: 27px;
+    line-height: 2.5;
+    padding:0px;
+    float:left;
+    clear:left;
+    width:fit-content;
+    
+    
+   
+}
+
+.inline{
+    background-color:#495670 ;
+    height:.1px;
+    width:30%;
+   
+    margin-top:22.2%;
+    margin-left:2%;
+    float:left;
+    clear:right;
+    
+
+}
+.project-content{
+    position: relative;
+    left:23%;
+    width:30%;
+    width:fit-content;
+    
+   
+}
+.head{
+    margin-top: 5%;
+    width:40%;
+}
+
+ .desc{
+    margin-top: 2%;
+    margin-left: 10%;
+    width:100%;
+
+}  
+.proj1{
+    margin-top: 5%;
+    width:500px;
+    height:200px;
+}
+
+#contact-head h1{
+    
+    margin-top:20%;
+  
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Ubuntu', sans-serif;
+    color:#ccd6f6;
+    font-size: 27px;
+    line-height: 2.5;
+    padding:0px;
+    text-align: center;
+    
+    
+   
+}
